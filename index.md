@@ -2,22 +2,18 @@
 
 ## Me on other sites
 [Youtube](https://www.youtube.com/channel/UCaoizWP6Ab0v03viO43ZDSg)
+[Twitch](https://www.twitch.tv/omegarogue)
+
+[Reddit](https://www.reddit.com/user/0megaRogue)
+[Subreddit](https://www.reddit.com/r/OmegaVoid)
+
+[Steam](https://steamcommunity.com/id/OmegaRogue2/)
+[Steam Group](https://steamcommunity.com/groups/OmegaRoguesGroup)
 
 [GitHub](https://github.com/OmegaRogue)
-
 [CurseForge](https://minecraft.curseforge.com/members/OmegaRogue)
 
 [Twitter](https://twitter.com/OmegaRogue1)
-
-[Reddit](https://www.reddit.com/user/0megaRogue)
-
-[Subreddit](https://www.reddit.com/r/OmegaVoid)
-
-[Twitch](https://www.twitch.tv/omegarogue)
-
-[Steam](https://steamcommunity.com/id/OmegaRogue2/)
-
-[Steam Group](https://steamcommunity.com/groups/OmegaRoguesGroup)
 
 ## Server
 ### Minecraft Server
