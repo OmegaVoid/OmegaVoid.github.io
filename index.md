@@ -1,36 +1,26 @@
-## Welcome to Omega
-You can use the [editor on GitHub](https://github.com/OmegaRogue/OmegaRogue.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+# Omega
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Me on other sites
+[Youtube](https://www.youtube.com/channel/UCaoizWP6Ab0v03viO43ZDSg)
 
-### Markdown
+[GitHub](https://github.com/OmegaRogue)
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+[CurseForge](https://minecraft.curseforge.com/members/OmegaRogue)
 
-```markdown
-Syntax highlighted code block
+[Twitter](https://twitter.com/OmegaRogue1)
 
-# Header 1
-## Header 2
-### Header 3
+## Server
+### Minecraft Server
+![Banner](https://panel.minecraft-host24.de/multicraft/index.php?r=status/45458.png)
 
-- Bulleted
-- List
+## Projects
+### Nimbatus Mod(Loader)
+A Mod for the Game Nimbatus by Stray Fawn Studio, it will be a complete Modloader in the future
 
-1. Numbered
-2. List
+[Nimbatus Mods](https://github.com/OmegaRogue/Nimbatus-Mods)
+### Minecraft Modpacks
+[Modpacks](https://minecraft.curseforge.com/members/OmegaRogue/projects)
 
-**Bold** and _Italic_ and `Code` text
 
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/OmegaRogue/OmegaRogue.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+## End Note
+this is a preliminary site until i make the html page
