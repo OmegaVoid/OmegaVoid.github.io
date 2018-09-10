@@ -28,6 +28,10 @@ A Mod for the Game Nimbatus by Stray Fawn Studio, it will be a complete Modloade
 ### Minecraft Modpacks
 [Modpacks](https://minecraft.curseforge.com/members/OmegaRogue/projects)
 
+## Applications
+[Youtuber Rank](https://docs.google.com/forms/d/1GFXSSfgyYl-RpAWPx3ONiqL6gQ1rmTk1OC3_Sus71eE)
+
+[Staff](https://docs.google.com/forms/d/1LHtbVgxwG_5PUrXo0-NcZHxH9jLvnhKSu5W4977anlo)
 
 ## End Note
 this is a preliminary site until i make the html page
