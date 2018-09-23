@@ -1,5 +1,8 @@
 # Omega
 
+## My Organization on GitHub
+[OmegaVoid]
+
 ## Me on other sites
 [Youtube](https://www.youtube.com/channel/UCaoizWP6Ab0v03viO43ZDSg)
 [Twitch](https://www.twitch.tv/omegarogue)
