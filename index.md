@@ -10,7 +10,7 @@
 [Steam](https://steamcommunity.com/id/OmegaRogue2/)
 [Steam Group](https://steamcommunity.com/groups/OmegaRoguesGroup)
 
-[GitHub](https://github.com/OmegaRogue)
+[GitHub](https://github.com/OmegaRogue)<>
 [CurseForge](https://minecraft.curseforge.com/members/OmegaRogue)
 
 [Twitter](https://twitter.com/OmegaRogue1)
