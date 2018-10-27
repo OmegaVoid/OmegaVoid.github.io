@@ -1,5 +1,8 @@
 # Omega
 
+## My Organization on GitHub
+[OmegaVoid](https://github.com/OmegaVoid)
+
 ## Me on other sites
 [Youtube](https://www.youtube.com/channel/UCaoizWP6Ab0v03viO43ZDSg)
 [Twitch](https://www.twitch.tv/omegarogue)
@@ -33,5 +36,7 @@ A Mod for the Game Nimbatus by Stray Fawn Studio, it will be a complete Modloade
 
 [Staff](https://docs.google.com/forms/d/1LHtbVgxwG_5PUrXo0-NcZHxH9jLvnhKSu5W4977anlo)
 
+## Suggestions
+[Suggestion Form](https://goo.gl/forms/wKZzUORsRlDZXvg93)
 ## End Note
 this is a preliminary site until i make the html page
