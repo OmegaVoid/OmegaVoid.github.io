@@ -15,15 +15,22 @@
             <h1>Omega</h1>
         </header>
         <footer>
-
+            <nav>
+                <ul>
+                   <li><a href="#">Seite 1</a></li>
+                   <li><a href="#">Seite 2</a></li>
+                   <li><a href="#">Seite 3</a></li>
+                   <li><a href="#">Seite 4</a></li>
+                   <li><a href="#">Seite 5</a></li>
+                   <li><a href="#">Seite 6</a></li>
+               </ul>
+             </nav>
 
 
 
 
 
             <p>I was here 2018</p>
-           <!-- <p>Creeperface part of the logo used on this site by:</p>
-           <a href="http://www.onlinewebfonts.com">oNline Web Fonts</a>-->
         </footer>
     </body>
 </html>
