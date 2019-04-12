@@ -69,9 +69,9 @@
 
 .t--dark a {
   color: var(--single-line-comment)!important;
-  background-color: var(--selection-background) !important;
+  background-color: transparent !important;
   text-decoration: $link-decoration;
-  
+
 
   @include hover {
     color: var(--main-foreground) !important;
