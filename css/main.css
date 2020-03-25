@@ -29,12 +29,12 @@ html {
  */
 
 ::-moz-selection {
-  background: #b3d4fc;
+  background: var(--selection-background);
   text-shadow: none;
 }
 
 ::selection {
-  background: #b3d4fc;
+  background: var(--selection-background);
   text-shadow: none;
 }
 
@@ -46,7 +46,7 @@ hr {
   display: block;
   height: 1px;
   border: 0;
-  border-top: 1px solid #ccc;
+  border-top: 1px solid var(--border);
   margin: 1em 0;
   padding: 0;
 }
@@ -262,6 +262,16 @@ textarea {
   h3 {
     page-break-after: avoid;
   }
+
+  kbd {
+    background: #f9f9f9 linear-gradient(to bottom, #eee, #f9f9f9, #eee) repeat scroll 0 0 !important;
+    border: 1px solid #aaa !important;
+    border-radius: 2px !important;
+    box-shadow: 1px 2px 2px #ddd !important;
+    font-family: inherit !important;
+    font-size: 0.9em !important;
+    padding: 0 0.5em !important;
+  }
 }
 
 
@@ -290,4 +300,9 @@ kbd {
 
   --selected-tool: #343638;
   --border: #555555;
+
+  --selection-background: #7fb0fb;
+  --selection-background-alt: #214283;
+  --selection-background-alt2: #0059bc;
+  --selection-background-alt3: #00317c;
 }
