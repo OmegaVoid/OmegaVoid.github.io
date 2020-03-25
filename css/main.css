@@ -12,7 +12,8 @@
    ========================================================================== */
 
 html {
-  color: #222;
+  color: var(--editor-foreground);
+  background-color: var(--editor-background);
   font-size: 1em;
   line-height: 1.4;
 }
@@ -263,3 +264,30 @@ textarea {
   }
 }
 
+
+kbd {
+  background: var(--button-hover-background) repeat scroll 0 0;
+  border: 1px solid var(--border);
+  border-radius: 2px;
+  font-family: inherit;
+  font-size: 0.9em;
+  padding: 0 0.5em;
+  color: var(--panel-foreground);
+}
+
+
+
+/*Variables*/
+* {
+  --panel-background: #3C3F41;
+  --panel-foreground: #ADADAD;
+  --button-hover-background: #4B4F51;
+  --editor-background: #2B2B2B;
+  --editor-foreground: #A9B7C6;
+  --editor-sidebar-background: #313335;
+  --line-number: #606366;
+  --current-line: #A4A3A3;
+
+  --selected-tool: #343638;
+  --border: #555555;
+}
