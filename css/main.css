@@ -48,16 +48,27 @@ html {
   color: var(--editor-foreground);
   background-color: var(--editor-background);
 
-  background-image: url(../img/worldmap.svg) !important;
-  background-repeat: no-repeat;
 
-  background-size: cover;
 
 
   font-size: 1em;
   line-height: 1.4;
 
 
+}
+
+#background {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  z-index: -1; /* Ensure div tag stays behind content; -999 might work, too. */
+}
+
+.stretch {
+
+  object-fit: fill;
 }
 
 /*
