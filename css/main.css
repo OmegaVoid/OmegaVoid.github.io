@@ -51,6 +51,18 @@ hr {
   padding: 0;
 }
 
+a {
+  color: var(--single-line-comment)!important;
+  background-color: transparent !important;
+
+
+}
+
+a:hover {
+  color: var(--editor-foreground) !important;
+  background-color: var(--button-hover-background) !important;
+}
+
 /*
  * Remove the gap between audio, canvas, iframes,
  * images, videos and the bottom of their containers:
@@ -302,7 +314,19 @@ kbd {
   --border: #555555;
 
   --selection-background: #7fb0fb;
-  --selection-background-alt: #214283;
-  --selection-background-alt2: #0059bc;
-  --selection-background-alt3: #00317c;
+
+  --setting-text: #bbbbbb;
+
+  --single-line-comment:#808080;
+  --multi-line-comment:#619647;
+
+  --number:#6897BB;
+  --string:#A5C25C;
+  --keyword:#CB772F;
+  --special-method:#BED6FF;
+  --local-var:#7E7E7E;
+  --local-var-dec:#A9B7C6;
+  --field:#9876AA;
+  --deprecated:#D25252;
+  --enum:#7FB347;
 }
