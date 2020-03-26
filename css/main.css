@@ -47,8 +47,17 @@
 html {
   color: var(--editor-foreground);
   background-color: var(--editor-background);
+
+  background-image: url(../img/worldmap.svg) !important;
+  background-repeat: no-repeat;
+
+  background-size: cover;
+
+
   font-size: 1em;
   line-height: 1.4;
+
+
 }
 
 /*
@@ -85,7 +94,7 @@ hr {
 }
 
 a {
-  color: var(--multi-line-comment)!important;
+  color: var(--keyword)!important;
   background-color: transparent !important;
 
 
@@ -95,6 +104,147 @@ a:hover {
   color: var(--editor-foreground) !important;
   background-color: var(--button-hover-background) !important;
 }
+
+/*
+ Page Layout
+ */
+
+header {
+  /*background: var(--panel-background);*/
+  border-color: var(--border);
+  display: flex;
+  flex-flow: column wrap;
+}
+
+header h1 {
+  text-align: center;
+}
+
+header * {
+  flex: 1 1 0%;
+}
+
+header img {
+  flex: 1 0 150px;
+  margin-right: 20px;
+}
+
+header nav {
+  flex: 1 1 100%;
+}
+
+
+nav,
+nav ul,
+nav li {
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+nav ul {
+  display: flex;
+  flex-direction: column;
+}
+
+nav li {
+  list-style-type: none;
+  margin: 1.3em 0;
+  flex: 1 1 100%;
+}
+
+nav a {
+  display: inline-block;
+  width: 100%;
+  border: 1px solid var(--border);
+  margin: 0;
+  text-decoration: none;
+  text-align: center;
+}
+
+nav a:hover,
+nav a:focus {
+  background-color: var(--button-hover-background);
+}
+
+section {
+  /*background: var(--panel-background);*/
+  border-color: var(--border);
+}
+
+article {
+  /*background: var(--panel-background);*/
+  border-color: var(--border);
+}
+
+aside {
+  /*background: var(--panel-background);*/
+  border-color: var(--border);
+}
+
+footer {
+  /*background: var(--panel-background);*/
+  border-color: var(--border);
+  display: flex;
+  flex-flow: row wrap;
+}
+
+footer * {
+  flex: 1 1 0%;
+  justify-content: space-between;
+}
+
+footer p {
+  text-align: right;
+}
+/* Smart Phones und Tablets mit mittlerer Auflösung */
+
+@media all and (min-width: 35em) {
+  header img {
+    margin-right: 50px;
+  }
+  nav ul {
+    flex-direction: row;
+  }
+  nav li {
+    margin: 0 10px;
+    flex: 1 1 0%;
+  }
+  article {
+    order: 2;
+  }
+  #news {
+    order: 3;
+  }
+  aside {
+    /* durch auto werden die beiden asides in eine Zeile gesetzt */
+
+    flex: 1 1 auto;
+    order: 4;
+  }
+  footer {
+    order: 5;
+  }
+}
+/* Large screens */
+
+@media all and (min-width: 50em) {
+  article {
+    /* Der Article wird 2.5x so breit wie die beiden asides! */
+
+    order: 3;
+    flex: 5 1 0%;
+  }
+  aside {
+    flex: 2 1 0%;
+  }
+  #news {
+    order: 2;
+    align-self: center;
+    height: 120px;
+  }
+}
+
 
 /*
  * Remove the gap between audio, canvas, iframes,
