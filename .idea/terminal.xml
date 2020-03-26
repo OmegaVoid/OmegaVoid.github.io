@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="TerminalProjectOptionsProvider">
+    <envs>
+      <env key="PATH" value="C:\Users\OmegaRogue\AppData\Local\Programs\Python\Python38-32\Scripts\;C:\Users\OmegaRogue\AppData\Local\Programs\Python\Python38-32\;C:\Users\OmegaRogue\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Users\OmegaRogue\AppData\Local\atom\bin;C:\Program Files\Docker Toolbox;C:\Users\OmegaRogue\go\bin;C:\Users\OmegaRogue\.dotnet\tools;C:\Users\OmegaRogue\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\OmegaRogue\AppData\Local\GitHubDesktop\bin;C:\Program Files\Git LFS;C:\Program Files\nodejs;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Git\cmd;C:\Go\bin;C:\Program Files\dotnet\;C:\Program Files\Git LFS;C:\Program Files\nodejs;C:\ProgramData\chocolatey\bin;" />
+    </envs>
+  </component>
+</project>
