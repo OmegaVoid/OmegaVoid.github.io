@@ -11,6 +11,39 @@
    Base styles: opinionated defaults
    ========================================================================== */
 
+/*Variables*/
+* {
+  --panel-background: #3C3F41;
+  --panel-foreground: #ADADAD;
+  --button-hover-background: #4B4F51;
+  --editor-background: #2B2B2B;
+  --editor-foreground: #A9B7C6;
+  --editor-sidebar-background: #313335;
+  --line-number: #606366;
+  --current-line: #A4A3A3;
+
+  --selected-tool: #343638;
+  --border: #555555;
+
+  --selection-background: #7fb0fb;
+
+  --setting-text: #bbbbbb;
+
+  --single-line-comment:#808080;
+  --multi-line-comment:#619647;
+
+  --number:#6897BB;
+  --string:#A5C25C;
+  --keyword:#CB772F;
+  --special-method:#BED6FF;
+  --local-var:#7E7E7E;
+  --local-var-dec:#A9B7C6;
+  --field:#9876AA;
+  --deprecated:#D25252;
+  --enum:#7FB347;
+}
+
+
 html {
   color: var(--editor-foreground);
   background-color: var(--editor-background);
@@ -52,7 +85,7 @@ hr {
 }
 
 a {
-  color: var(--single-line-comment)!important;
+  color: var(--multi-line-comment)!important;
   background-color: transparent !important;
 
 
@@ -299,34 +332,3 @@ kbd {
 
 
 
-/*Variables*/
-* {
-  --panel-background: #3C3F41;
-  --panel-foreground: #ADADAD;
-  --button-hover-background: #4B4F51;
-  --editor-background: #2B2B2B;
-  --editor-foreground: #A9B7C6;
-  --editor-sidebar-background: #313335;
-  --line-number: #606366;
-  --current-line: #A4A3A3;
-
-  --selected-tool: #343638;
-  --border: #555555;
-
-  --selection-background: #7fb0fb;
-
-  --setting-text: #bbbbbb;
-
-  --single-line-comment:#808080;
-  --multi-line-comment:#619647;
-
-  --number:#6897BB;
-  --string:#A5C25C;
-  --keyword:#CB772F;
-  --special-method:#BED6FF;
-  --local-var:#7E7E7E;
-  --local-var-dec:#A9B7C6;
-  --field:#9876AA;
-  --deprecated:#D25252;
-  --enum:#7FB347;
-}
