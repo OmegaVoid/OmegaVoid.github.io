@@ -1,42 +1,50 @@
-var CACHE_NAME = 'static-cache';
-var urlsToCache = [
-  '.',
-  'index.html',
-  'styles/main.css'
-];
-self.addEventListener('install', function(event) {
-  event.waitUntil(
-    caches.open(CACHE_NAME)
-      .then(function(cache) {
-        return cache.addAll(urlsToCache);
-      })
-  );
-});
+importScripts('https://storage.googleapis.com/workbox-cdn/releases/5.0.0/workbox-sw.js');
 
-self.addEventListener('fetch', function(event) {
-  event.respondWith(
-    caches.match(event.request)
-      .then(function(response) {
-        return response || fetchAndCache(event.request);
-      })
-  );
-});
-
-function fetchAndCache(url) {
-  return fetch(url)
-    .then(function(response) {
-      // Check if we received a valid response
-      if (!response.ok) {
-        throw Error(response.statusText);
-      }
-      return caches.open(CACHE_NAME)
-        .then(function(cache) {
-          cache.put(url, response.clone());
-          return response;
-        });
-    })
-    .catch(function(error) {
-      console.log('Request failed:', error);
-      // You could return a custom offline 404 page here
-    });
+if (workbox) {
+  console.log(`Yay! Workbox is loaded 🎉`);
+} else {
+  console.log(`Boo! Workbox didn't load 😬`);
 }
+
+
+
+import {registerRoute} from 'workbox-routing';
+import {CacheFirst, StaleWhileRevalidate} from 'workbox-strategies';
+import {ExpirationPlugin} from 'workbox-expiration';
+
+registerRoute(
+  /\.js$/,
+  new NetworkFirst()
+);
+
+registerRoute(
+  /\.html$/,
+  new NetworkFirst()
+);
+registerRoute(
+  // Cache CSS files.
+  /\.css$/,
+  // Use cache but update in the background.
+  new StaleWhileRevalidate({
+    // Use a custom cache name.
+    cacheName: 'css-cache',
+  })
+);
+
+registerRoute(
+  // Cache image files.
+  /\.(?:png|jpg|jpeg|svg|gif)$/,
+  // Use the cache if it's available.
+  new CacheFirst({
+    // Use a custom cache name.
+    cacheName: 'image-cache',
+    plugins: [
+      new ExpirationPlugin({
+        // Cache only 20 images.
+        maxEntries: 20,
+        // Cache for a maximum of a week.
+        maxAgeSeconds: 7 * 24 * 60 * 60,
+      })
+    ],
+  })
+);
