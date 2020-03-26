@@ -46,12 +46,6 @@
             "src": "/android-chrome-512x512.png",
             "sizes": "512x512",
             "type": "image/png"
-        },
-        {
-           "src": "/OmegaPlain.svg",
-           "sizes": "640x640",
-           "type": "image/svg",
-           "purpose": "any maskable"
         }
     ],
     "theme_color": "#3c3f41",
