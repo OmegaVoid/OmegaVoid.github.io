@@ -19,20 +19,21 @@
   <meta name="msapplication-TileColor" content="#603cba">
   <meta name="theme-color" content="#3c3f41">
 
+  <script>
+    // Check that service workers are registered
+    if ("serviceWorker" in navigator) {
+      // Use the window load event to keep the page load performant
+      window.addEventListener("load", () => {
+        navigator.serviceWorker.register("/sw.js");
+      });
+    }
+  </script>
 
 
 </head>
 
 <body>
-<script>
-  // Check that service workers are registered
-  if ("serviceWorker" in navigator) {
-    // Use the window load event to keep the page load performant
-    window.addEventListener("load", () => {
-      navigator.serviceWorker.register("/sw.js");
-    });
-  }
-</script>
+
   <!--[if IE]>
     <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
   <![endif]-->
