@@ -10,12 +10,12 @@ import Projects from './pages/Projects';
 const Main = () => {
     return (
         <Switch> {/* The Switch decides which component to show based on the current URL.*/}
-            <Route path='/' component={Home}/>
-            <Route path='/#' component={Home}/>
-            <Route path='/#/omega' component={Omega}/>
-            <Route path='/#/omegarogue' component={OmegaRogue}/>
-            <Route path='/#/others' component={Others}/>
-            <Route path='/#/projects' component={Projects}/>
+            <Route exact path='/' component={Home}/>
+            <Route exact path='/#' component={Home}/>
+            <Route exact path='/#/omega' component={Omega}/>
+            <Route exact path='/#/omegarogue' component={OmegaRogue}/>
+            <Route exact path='/#/others' component={Others}/>
+            <Route exact path='/#/projects' component={Projects}/>
         </Switch>
     );
 }
