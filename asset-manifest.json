@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.13580c5b.chunk.css",
-    "main.js": "/static/js/main.d2e5d9c0.chunk.js",
-    "main.js.map": "/static/js/main.d2e5d9c0.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.0f50b45e.js",
-    "runtime-main.js.map": "/static/js/runtime-main.0f50b45e.js.map",
-    "static/js/2.041d4416.chunk.js": "/static/js/2.041d4416.chunk.js",
-    "static/js/2.041d4416.chunk.js.map": "/static/js/2.041d4416.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.4b83c280745c4e3ee1d7edc254d609e7.js": "/precache-manifest.4b83c280745c4e3ee1d7edc254d609e7.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.13580c5b.chunk.css.map": "/static/css/main.13580c5b.chunk.css.map",
-    "static/js/2.041d4416.chunk.js.LICENSE.txt": "/static/js/2.041d4416.chunk.js.LICENSE.txt",
-    "static/media/logo.svg": "/static/media/logo.ee7cd8ed.svg"
+    "main.css": "/OmegaVoid.github.io/static/css/main.13580c5b.chunk.css",
+    "main.js": "/OmegaVoid.github.io/static/js/main.2c8dda93.chunk.js",
+    "main.js.map": "/OmegaVoid.github.io/static/js/main.2c8dda93.chunk.js.map",
+    "runtime-main.js": "/OmegaVoid.github.io/static/js/runtime-main.c8cdd740.js",
+    "runtime-main.js.map": "/OmegaVoid.github.io/static/js/runtime-main.c8cdd740.js.map",
+    "static/js/2.041d4416.chunk.js": "/OmegaVoid.github.io/static/js/2.041d4416.chunk.js",
+    "static/js/2.041d4416.chunk.js.map": "/OmegaVoid.github.io/static/js/2.041d4416.chunk.js.map",
+    "index.html": "/OmegaVoid.github.io/index.html",
+    "precache-manifest.ed6df270b48b2d30e43ef9413b8aee0b.js": "/OmegaVoid.github.io/precache-manifest.ed6df270b48b2d30e43ef9413b8aee0b.js",
+    "service-worker.js": "/OmegaVoid.github.io/service-worker.js",
+    "static/css/main.13580c5b.chunk.css.map": "/OmegaVoid.github.io/static/css/main.13580c5b.chunk.css.map",
+    "static/js/2.041d4416.chunk.js.LICENSE.txt": "/OmegaVoid.github.io/static/js/2.041d4416.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/OmegaVoid.github.io/static/media/logo.ee7cd8ed.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.0f50b45e.js",
+    "static/js/runtime-main.c8cdd740.js",
     "static/js/2.041d4416.chunk.js",
     "static/css/main.13580c5b.chunk.css",
-    "static/js/main.d2e5d9c0.chunk.js"
+    "static/js/main.2c8dda93.chunk.js"
   ]
 }
