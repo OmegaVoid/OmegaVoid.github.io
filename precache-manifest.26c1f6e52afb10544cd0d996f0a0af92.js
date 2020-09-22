@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c7775a70da8a5f4a6cde248b6cf2e770",
+    "revision": "419459cb879caf4bec38436e4f335b4b",
     "url": "/OmegaVoid.github.io/index.html"
   },
   {
-    "revision": "115282d446041f410217",
+    "revision": "42c0ea24d0f249d6dcee",
     "url": "/OmegaVoid.github.io/static/css/main.13580c5b.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/OmegaVoid.github.io/static/js/2.041d4416.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "115282d446041f410217",
-    "url": "/OmegaVoid.github.io/static/js/main.2c8dda93.chunk.js"
+    "revision": "42c0ea24d0f249d6dcee",
+    "url": "/OmegaVoid.github.io/static/js/main.a8550a3d.chunk.js"
   },
   {
     "revision": "2db319c0f144fc25798e",

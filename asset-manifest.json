@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/OmegaVoid.github.io/static/css/main.13580c5b.chunk.css",
-    "main.js": "/OmegaVoid.github.io/static/js/main.2c8dda93.chunk.js",
-    "main.js.map": "/OmegaVoid.github.io/static/js/main.2c8dda93.chunk.js.map",
+    "main.js": "/OmegaVoid.github.io/static/js/main.a8550a3d.chunk.js",
+    "main.js.map": "/OmegaVoid.github.io/static/js/main.a8550a3d.chunk.js.map",
     "runtime-main.js": "/OmegaVoid.github.io/static/js/runtime-main.c8cdd740.js",
     "runtime-main.js.map": "/OmegaVoid.github.io/static/js/runtime-main.c8cdd740.js.map",
     "static/js/2.041d4416.chunk.js": "/OmegaVoid.github.io/static/js/2.041d4416.chunk.js",
     "static/js/2.041d4416.chunk.js.map": "/OmegaVoid.github.io/static/js/2.041d4416.chunk.js.map",
     "index.html": "/OmegaVoid.github.io/index.html",
-    "precache-manifest.ed6df270b48b2d30e43ef9413b8aee0b.js": "/OmegaVoid.github.io/precache-manifest.ed6df270b48b2d30e43ef9413b8aee0b.js",
+    "precache-manifest.26c1f6e52afb10544cd0d996f0a0af92.js": "/OmegaVoid.github.io/precache-manifest.26c1f6e52afb10544cd0d996f0a0af92.js",
     "service-worker.js": "/OmegaVoid.github.io/service-worker.js",
     "static/css/main.13580c5b.chunk.css.map": "/OmegaVoid.github.io/static/css/main.13580c5b.chunk.css.map",
     "static/js/2.041d4416.chunk.js.LICENSE.txt": "/OmegaVoid.github.io/static/js/2.041d4416.chunk.js.LICENSE.txt",
@@ -18,6 +18,6 @@
     "static/js/runtime-main.c8cdd740.js",
     "static/js/2.041d4416.chunk.js",
     "static/css/main.13580c5b.chunk.css",
-    "static/js/main.2c8dda93.chunk.js"
+    "static/js/main.a8550a3d.chunk.js"
   ]
 }
