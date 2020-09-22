@@ -81,16 +81,16 @@ export class App extends React.Component {
                                             <Link to="/"><Button animate style={this.styles.button}>Home</Button></Link>
                                         </Col>
                                         <Col s={12} m={4} l={2} style={this.styles.navColumn}>
-                                            <Link to="/projects"><Button animate style={this.styles.button}>Projects</Button></Link>
+                                            <Link to="#/projects"><Button animate style={this.styles.button}>Projects</Button></Link>
                                         </Col>
                                         <Col s={12} m={4} l={2} style={this.styles.navColumn}>
-                                            <Link to="/omegarogue"><Button animate style={this.styles.button}>OmegaRogue</Button></Link>
+                                            <Link to="#/omegarogue"><Button animate style={this.styles.button}>OmegaRogue</Button></Link>
                                         </Col>
                                         <Col s={12} m={4} l={2} style={this.styles.navColumn}>
-                                            <Link to="/others"><Button animate style={this.styles.button}>Others</Button></Link>
+                                            <Link to="#/others"><Button animate style={this.styles.button}>Others</Button></Link>
                                         </Col>
                                         <Col s={12} m={4} l={2} style={this.styles.navColumn}>
-                                            <Link to="/omega"><Button animate style={this.styles.button}>Omega</Button></Link>
+                                            <Link to="#/omega"><Button animate style={this.styles.button}>Omega</Button></Link>
                                         </Col>
                                         <Col s={12} m={4} l={2} style={this.styles.navColumn}>
                                             <Button animate style={this.styles.button}>...</Button>
