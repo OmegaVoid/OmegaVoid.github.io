@@ -32,7 +32,8 @@ export class Omega extends React.Component {
                 animate={true}
                 level={3}
                 corners={4}
-                layer='primary'>
+                layer='primary'
+                style={this.styles.frame}>
                 <Project animate header='Omega'>
                     <Project animate header='The Terran Empire of Omega a.k.a. OmegaVoid'>
                         <Project animate header='Army'>

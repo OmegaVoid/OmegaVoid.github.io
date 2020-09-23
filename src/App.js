@@ -25,7 +25,7 @@ import Omega from "./pages/Omega";
 import OmegaRogue from "./pages/OmegaRogue";
 import Others from "./pages/Others";
 import Projects from "./pages/Projects";
-
+import Links from "./pages/Links"
 
 const sounds = {
     shared: {volume: 1},
@@ -102,53 +102,20 @@ export class App extends React.Component {
                                                                           style={this.styles.button}>Omega</Button></Link>
                                             </Col>
                                             <Col s={12} m={4} l={2} style={this.styles.navColumn}>
-                                                <Button animate disabled style={this.styles.button}>...</Button>
+                                                <Link to="/links"><Button animate
+                                                                          style={this.styles.button}>Links</Button></Link>
                                             </Col>
                                         </Row>
                                     </Frame>
                                 </nav>
-
-                                {this.state.size === "small" ?
-                                    <div>
-                                        <main>
-                                            <Route exact path='/' component={Home}/>
-                                            <Route path='/omega' component={Omega}/>
-                                            <Route path='/omegarogue' component={OmegaRogue}/>
-                                            <Route path='/others' component={Others}/>
-                                            <Route path='/projects' component={Projects}/>
-                                        </main>
-
-                                        <aside style={{
-                                            display: "flex",
-                                            justifyContent: "center",
-                                            alignItems: "center"
-                                        }}>
-                                            <iframe src="https://discordapp.com/widget?id=728242919223459911&theme=dark"
-                                                    height="500"
-                                                    allowTransparency="true" frameBorder="0"
-                                                    sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"/>
-                                        </aside>
-
-
-                                    </div> :
-                                    <div style={this.styles.mainContent}>
-                                        <main style={this.styles.centerSection}>
-                                            <Route exact path='/' component={Home}/>
-                                            <Route path='/omega' component={Omega}/>
-                                            <Route path='/omegarogue' component={OmegaRogue}/>
-                                            <Route path='/others' component={Others}/>
-                                            <Route path='/projects' component={Projects}/>
-                                        </main>
-
-                                        <aside style={this.styles.sideSection}>
-                                            <iframe src="https://discordapp.com/widget?id=728242919223459911&theme=dark"
-                                                    height="500"
-                                                    allowTransparency="true" frameBorder="0"
-                                                    sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"/>
-                                        </aside>
-
-                                    </div>
-                                }
+                                <main>
+                                    <Route exact path='/' component={Home}/>
+                                    <Route path='/omega' component={Omega}/>
+                                    <Route path='/omegarogue' component={OmegaRogue}/>
+                                    <Route path='/others' component={Others}/>
+                                    <Route path='/projects' component={Projects}/>
+                                    <Route path='/links' component={Links}/>
+                                </main>
                             </HashRouter>
 
 
