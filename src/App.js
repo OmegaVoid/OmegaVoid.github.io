@@ -14,13 +14,17 @@ import {
     Button,
     createResponsive,
     Row,
-    Col, Paragraph
+    Col
 } from 'arwes'
 
-import { Link } from "react-router-dom";
+import {Link, Route, HashRouter} from "react-router-dom";
 
 import Frame from "arwes/lib/Frame";
-import Main from './Main'
+import Home from "./pages/Home";
+import Omega from "./pages/Omega";
+import OmegaRogue from "./pages/OmegaRogue";
+import Others from "./pages/Others";
+import Projects from "./pages/Projects";
 
 
 const sounds = {
@@ -69,68 +73,83 @@ export class App extends React.Component {
                             <Header animate style={{textAlign: 'center'}}>
                                 <Image animate resources='/CoverNeonHighRes.png'/>
                             </Header>
+                            <HashRouter basename='/'>
+                                <nav style={this.styles.navList}>
+                                    <Frame
+                                        animate={true}
+                                        level={3}
+                                        corners={4}
+                                        layer='primary'>
+                                        <Row style={this.styles.navRow}>
+                                            <Col s={12} m={4} l={2} style={this.styles.navColumn}>
+                                                <Link to="/"><Button animate
+                                                                     style={this.styles.button}>Home</Button></Link>
+                                            </Col>
+                                            <Col s={12} m={4} l={2} style={this.styles.navColumn}>
+                                                <Link to="/projects"><Button animate
+                                                                             style={this.styles.button}>Projects</Button></Link>
+                                            </Col>
+                                            <Col s={12} m={4} l={2} style={this.styles.navColumn}>
+                                                <Link to="/omegarogue"><Button animate
+                                                                               style={this.styles.button}>OmegaRogue</Button></Link>
+                                            </Col>
+                                            <Col s={12} m={4} l={2} style={this.styles.navColumn}>
+                                                <Link to="/others"><Button animate
+                                                                           style={this.styles.button}>Others</Button></Link>
+                                            </Col>
+                                            <Col s={12} m={4} l={2} style={this.styles.navColumn}>
+                                                <Link to="/omega"><Button animate
+                                                                          style={this.styles.button}>Omega</Button></Link>
+                                            </Col>
+                                            <Col s={12} m={4} l={2} style={this.styles.navColumn}>
+                                                <Button animate disabled style={this.styles.button}>...</Button>
+                                            </Col>
+                                        </Row>
+                                    </Frame>
+                                </nav>
 
-                            <nav style={this.styles.navList}>
-                                <Frame
-                                    animate={true}
-                                    level={3}
-                                    corners={4}
-                                    layer='primary'>
-                                    <Row style={this.styles.navRow}>
-                                        <Col s={12} m={4} l={2} style={this.styles.navColumn}>
-                                            <Link to="/"><Button animate style={this.styles.button}>Home</Button></Link>
-                                        </Col>
-                                        <Col s={12} m={4} l={2} style={this.styles.navColumn}>
-                                            <Link to="/projects"><Button animate style={this.styles.button}>Projects</Button></Link>
-                                        </Col>
-                                        <Col s={12} m={4} l={2} style={this.styles.navColumn}>
-                                            <Link to="/omegarogue"><Button animate style={this.styles.button}>OmegaRogue</Button></Link>
-                                        </Col>
-                                        <Col s={12} m={4} l={2} style={this.styles.navColumn}>
-                                            <Link to="/others"><Button animate style={this.styles.button}>Others</Button></Link>
-                                        </Col>
-                                        <Col s={12} m={4} l={2} style={this.styles.navColumn}>
-                                            <Link to="/omega"><Button animate style={this.styles.button}>Omega</Button></Link>
-                                        </Col>
-                                        <Col s={12} m={4} l={2} style={this.styles.navColumn}>
-                                            <Button animate style={this.styles.button}>...</Button>
-                                        </Col>
-                                    </Row>
-                                </Frame>
-                            </nav>
+                                {this.state.size === "small" ?
+                                    <div>
+                                        <main>
+                                            <Route exact path='/' component={Home}/>
+                                            <Route path='/omega' component={Omega}/>
+                                            <Route path='/omegarogue' component={OmegaRogue}/>
+                                            <Route path='/others' component={Others}/>
+                                            <Route path='/projects' component={Projects}/>
+                                        </main>
 
-                            {this.state.size === "small" ?
-                                <div>
-                                    <main>
-                                        <Main />
-                                    </main>
-
-                                    <aside style={ {
-                                        display: "flex",
-                                        justifyContent: "center",
-                                        alignItems: "center"
-                                    }}>
-                                        <iframe src="https://discordapp.com/widget?id=728242919223459911&theme=dark" height="500"
-                                                allowTransparency="true" frameBorder="0"
-                                                sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"/>
-                                    </aside>
+                                        <aside style={{
+                                            display: "flex",
+                                            justifyContent: "center",
+                                            alignItems: "center"
+                                        }}>
+                                            <iframe src="https://discordapp.com/widget?id=728242919223459911&theme=dark"
+                                                    height="500"
+                                                    allowTransparency="true" frameBorder="0"
+                                                    sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"/>
+                                        </aside>
 
 
-                                </div> :
-                                <div style={this.styles.mainContent}>
-                                    <main style={this.styles.centerSection}>
-                                        <Main />
-                                    </main>
+                                    </div> :
+                                    <div style={this.styles.mainContent}>
+                                        <main style={this.styles.centerSection}>
+                                            <Route exact path='/' component={Home}/>
+                                            <Route path='/omega' component={Omega}/>
+                                            <Route path='/omegarogue' component={OmegaRogue}/>
+                                            <Route path='/others' component={Others}/>
+                                            <Route path='/projects' component={Projects}/>
+                                        </main>
 
-                                    <aside style={this.styles.sideSection}>
-                                        <iframe src="https://discordapp.com/widget?id=728242919223459911&theme=dark" height="500"
-                                                allowTransparency="true" frameBorder="0"
-                                                sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"/>
-                                    </aside>
+                                        <aside style={this.styles.sideSection}>
+                                            <iframe src="https://discordapp.com/widget?id=728242919223459911&theme=dark"
+                                                    height="500"
+                                                    allowTransparency="true" frameBorder="0"
+                                                    sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"/>
+                                        </aside>
 
-                                </div>
-                            }
-
+                                    </div>
+                                }
+                            </HashRouter>
 
 
                             <Footer animate>
@@ -144,8 +163,6 @@ export class App extends React.Component {
             </React.Fragment>
         );
     }
-
-
 
 
     getTheme() {
