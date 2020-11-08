@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/OmegaVoid.github.io/precache-manifest.cfbe8447e080de8db2487ab776eec21c.js"
+  "/OmegaVoid.github.io/precache-manifest.6d87c2381f585e8643bada711a46b646.js"
 );
 
 self.addEventListener('message', (event) => {
