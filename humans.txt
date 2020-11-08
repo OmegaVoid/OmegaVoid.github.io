@@ -1,0 +1,12 @@
+# humanstxt.org/
+# TEAM
+Your title: OmegaRogue
+Site: omegarogue@omegavoid.codes
+Twitter: @realOmegaRogue
+Location: Germany
+
+# SITE
+Last update: 2020/11/08
+Standards: HTML5, CSS3
+Components: Arwes, React, WidgetBot
+Software: JetBrains WebStorm

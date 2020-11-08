@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c5f2ee12479990e91cbd6bfb7d23bf34",
+    "revision": "b04105c8a9189f0b0d89facafe80b7e1",
     "url": "/OmegaVoid.github.io/index.html"
   },
   {
