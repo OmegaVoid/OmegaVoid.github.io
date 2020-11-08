@@ -1,7 +1,7 @@
 import React from "react";
 import {
     createResponsive,
-    createTheme,
+    createTheme, Link,
     Project
 } from "arwes";
 
@@ -24,21 +24,12 @@ export class Projects extends React.Component {
                 corners={4}
                 layer='primary'
                 style={this.styles.frame}>
-                <Project animate header='Lorem ipsum'>
-                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
-                    At vero eos et accusam et justo duo dolores et ea rebum.
-                    Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
-                </Project>
-                <Project animate header='Lorem ipsum'>
-                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
-                    At vero eos et accusam et justo duo dolores et ea rebum.
-                    Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
-                </Project>
-                <Project animate header='Lorem ipsum'>
-                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
-                    At vero eos et accusam et justo duo dolores et ea rebum.
-                    Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
-                </Project>
+                <Link href="https://github.com/OmegaVoid/Nimbatus-Mods-Rework">
+                    <Project animate header='Nimbatus-Mods'>
+                        A Modding API for the game Nimbatus
+                    </Project>
+                </Link>
+
             </Frame>
         );
     }
