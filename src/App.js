@@ -31,15 +31,15 @@ const sounds = {
     shared: {volume: 1},
     players: {
         click: {
-            sound: {src: [process.env.PUBLIC_URL + '/sounds/click.mp3']},
+            sound: {src: ['/sounds/click.mp3']},
             settings: {oneAtATime: true}
         },
         typing: {
-            sound: {src: [process.env.PUBLIC_URL + '/sounds/typing.mp3']},
+            sound: {src: ['/sounds/typing.mp3']},
             settings: {oneAtATime: true}
         },
         deploy: {
-            sound: {src: [process.env.PUBLIC_URL + '/sounds/deploy.mp3']},
+            sound: {src: ['/sounds/deploy.mp3']},
             settings: {oneAtATime: true}
         },
     }
@@ -68,8 +68,8 @@ export class App extends React.Component {
                 <ThemeProvider theme={createTheme()}>
                     <SoundsProvider sounds={createSounds(sounds)}>
                         <Arwes animate
-                               background={process.env.PUBLIC_URL + '/images/background.jpg'}
-                               pattern={process.env.PUBLIC_URL + '/images/glow.png'}>
+                               background={'/images/background.jpg'}
+                               pattern={'/images/glow.png'}>
                             <Header animate style={{textAlign: 'center'}}>
                                 <Image animate resources='/CoverNeonHighRes.png'/>
                             </Header>
