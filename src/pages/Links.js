@@ -1,10 +1,5 @@
 import React from "react";
-import {
-    createResponsive,
-    createTheme, Paragraph,
-    Heading,
-    Link, Project, Button, Col, Row
-} from "arwes";
+import {Button, Col, createResponsive, createTheme, Link, Project, Row} from "arwes";
 
 import Frame from "arwes/lib/Frame";
 

@@ -1,23 +1,22 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 
 import {
     Arwes,
-    createTheme,
-    ThemeProvider,
-    SoundsProvider,
-    createSounds,
-    Header,
-    Footer,
-    Image,
     Button,
+    Col,
     createResponsive,
+    createSounds,
+    createTheme,
+    Footer,
+    Header,
+    Image,
     Row,
-    Col
+    SoundsProvider,
+    ThemeProvider
 } from 'arwes'
 
-import {Link, Route, HashRouter} from "react-router-dom";
+import {HashRouter, Link, Route} from "react-router-dom";
 
 import Frame from "arwes/lib/Frame";
 import Home from "./pages/Home";
