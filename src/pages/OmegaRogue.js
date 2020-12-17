@@ -23,26 +23,35 @@ export class OmegaRogue extends React.Component {
                 <Project animate header='Me on other Sites'>
                     <Row>
                         <Col s={12} m={4} l={3}><Link href="https://twitter.com/realOmegaRogue"><Button animate
-                                                                                                        style={this.styles.button}>Twitter</Button></Link></Col>
+                                                                                                        style={this.styles.button}><i
+                            className="fab fa-twitter"/> Twitter</Button></Link></Col>
                         <Col s={12} m={4} l={3}><Link
                             href="https://www.youtube.com/channel/UCaoizWP6Ab0v03viO43ZDSg"><Button animate
-                                                                                                    style={this.styles.button}>YouTube
+                                                                                                    style={this.styles.button}><i
+                            className="fab fa-youtube"/> YouTube
                             Channel</Button></Link></Col>
                         <Col s={12} m={4} l={3}><Link href="http://www.twitch.tv/OmegaRogue"><Button animate
-                                                                                                     style={this.styles.button}>Twitch
+                                                                                                     style={this.styles.button}><i
+                            className="fab fa-twitch"/> Twitch
                             Channel</Button></Link></Col>
                         <Col s={12} m={4} l={3}><Link href="https://github.com/OmegaRogue"><Button animate
-                                                                                                   style={this.styles.button}>GitHub</Button></Link></Col>
+                                                                                                   style={this.styles.button}><i
+                            className="fab fa-github"/> GitHub</Button></Link></Col>
                         <Col s={12} m={4} l={3}><Link href="https://www.reddit.com/user/0megaRogue"><Button animate
-                                                                                                            style={this.styles.button}>Reddit</Button></Link></Col>
+                                                                                                            style={this.styles.button}><i
+                            className="fab fa-reddit"/> Reddit</Button></Link></Col>
                         <Col s={12} m={4} l={3}> <Link href="https://gitlab.com/OmegaRogue"><Button animate
-                                                                                                    style={this.styles.button}>GitLab</Button></Link></Col>
+                                                                                                    style={this.styles.button}><i
+                            className="fab fa-gitlab"/> GitLab</Button></Link></Col>
                         <Col s={12} m={4} l={3}> <Link href="https://steamcommunity.com/id/OmegaRogue2/"><Button animate
-                                                                                                                 style={this.styles.button}>Steam</Button></Link></Col>
+                                                                                                                 style={this.styles.button}><i
+                            className="fab fa-steam"/> Steam</Button></Link></Col>
                         <Col s={12} m={4} l={3}><Link href="https://eldritchomegarogue.tumblr.com/"><Button animate
-                                                                                                            style={this.styles.button}>Tumblr</Button></Link></Col>
+                                                                                                            style={this.styles.button}><i
+                            className="fab fa-tumblr"/> Tumblr</Button></Link></Col>
                         <Col s={12} m={4} l={3}><Link href="https://omegarogue.itch.io/"><Button animate
-                                                                                                 style={this.styles.button}>Itch.io</Button></Link></Col>
+                                                                                                 style={this.styles.button}><i
+                            className="fab fa-itch-io"/> Itch.io</Button></Link></Col>
 
                     </Row>
                 </Project>

@@ -11,5 +11,6 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="analytics" level="application" />
     <orderEntry type="library" name="@widgetbot" level="application" />
+    <orderEntry type="library" name="5c5ae5bdad" level="application" />
   </component>
 </module>

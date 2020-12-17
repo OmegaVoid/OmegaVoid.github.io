@@ -24,31 +24,36 @@ export class Links extends React.Component {
                     <Row>
                         <Col s={12} m={4} l={2}>
                             <Link href="https://github.com/OmegaVoid">
-                                <Button animate style={this.styles.button}>GitHub</Button>
+                                <Button animate style={this.styles.button}><i
+                                    className="fab fa-github"/> GitHub</Button>
                             </Link>
                         </Col>
                         <Col s={12} m={4} l={2}><Link href="https://twitter.com/OmegaV01d">
-                            <Button animate style={this.styles.button}>Twitter</Button>
+                            <Button animate style={this.styles.button}><i className="fab fa-twitter"/> Twitter</Button>
                         </Link>
                         </Col>
                         <Col s={12} m={4} l={2}>
                             <Link href="https://www.reddit.com/r/OmegaVoid">
-                                <Button animate style={this.styles.button}>Subreddit</Button>
+                                <Button animate style={this.styles.button}><i
+                                    className="fab fa-reddit"/> Subreddit</Button>
                             </Link>
                         </Col>
                         <Col s={12} m={4} l={2}>
                             <Link href="https://gitlab.com/omegavoid">
-                                <Button animate style={this.styles.button}>GitLab</Button>
+                                <Button animate style={this.styles.button}><i
+                                    className="fab fa-gitlab"/> GitLab</Button>
                             </Link>
                         </Col>
                         <Col s={12} m={4} l={2}>
                             <Link href="https://steamcommunity.com/groups/TerranEmpireOfOmega">
-                                <Button animate style={this.styles.button}>Steam Group</Button>
+                                <Button animate style={this.styles.button}><i className="fab fa-steam"/> Steam
+                                    Group</Button>
                             </Link>
                         </Col>
                         <Col s={12} m={4} l={2}>
                             <Link href="https://discord.gg/qUuAt93">
-                                <Button animate style={this.styles.button}>Discord Server</Button>
+                                <Button animate style={this.styles.button}><i className="fab fa-discord"/> Discord
+                                    Server</Button>
                             </Link>
                         </Col>
                     </Row>
