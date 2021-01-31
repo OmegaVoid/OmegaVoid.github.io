@@ -29,6 +29,11 @@ export class Projects extends React.Component {
                         Tenor REST API.
                     </Project>
                 </Link>
+                <Link href="https://matrix-calc.omegavoid.codes">
+                    <Project animate header='Matrix Calc'>
+                        Matrix Calc is a simple calculator for linear Matrix equations.
+                    </Project>
+                </Link>
                 <Link href="https://github.com/OmegaVoid/Nimbatus-Mods-Rework">
                     <Project animate header='Nimbatus-Mods'>
                         A Modding API for the game Nimbatus
