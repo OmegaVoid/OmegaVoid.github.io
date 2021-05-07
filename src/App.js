@@ -67,10 +67,10 @@ export class App extends React.Component {
                 <ThemeProvider theme={createTheme()}>
                     <SoundsProvider sounds={createSounds(sounds)}>
                         <Arwes animate
-                               background={'/images/background.jpg'}
+                               background={'/images/background.webp'}
                                pattern={'/images/glow.png'}>
                             <Header animate style={{textAlign: 'center'}}>
-                                <Image animate resources='/CoverNeonHighRes.png'/>
+                                <Image animate resources='/CoverNeonHighRes.webp'/>
                             </Header>
                             <HashRouter basename='/'>
                                 <nav style={this.styles.navList}>
