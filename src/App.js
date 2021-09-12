@@ -13,7 +13,7 @@ import {
   Image,
   Row,
   SoundsProvider,
-  ThemeProvider
+  ThemeProvider,
 } from 'arwes'
 
 import {HashRouter, Link, Route} from "react-router-dom";
@@ -120,8 +120,8 @@ export class App extends React.Component {
                                                     style={this.styles.button}>Links</Button></Link>
                         </Col>
                         <Col s={12} m={4} l={2} style={this.styles.navColumn}>
-                          <Link to="https://parts.omegavoid.codes"><Button animate
-                                                                           style={this.styles.button}>Parts</Button></Link>
+                          <a href="https://parts.omegavoid.codes"><Button animate
+                                                                          style={this.styles.button}>Parts</Button></a>
                         </Col>
                       </Row>
                     </Frame>
@@ -132,6 +132,7 @@ export class App extends React.Component {
                     <Route path='/omegarogue' component={OmegaRogue}/>
                     <Route path='/others' component={Others}/>
                     <Route path='/projects' component={Projects}/>
+                    <Route path='/links' component={Links}/>
                     <Route path='/links' component={Links}/>
                   </main>
                 </HashRouter>
