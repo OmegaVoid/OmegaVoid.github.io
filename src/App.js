@@ -119,6 +119,10 @@ export class App extends React.Component {
                           <Link to="/links"><Button animate
                                                     style={this.styles.button}>Links</Button></Link>
                         </Col>
+                        <Col s={12} m={4} l={2} style={this.styles.navColumn}>
+                          <Link to="https://parts.omegavoid.codes"><Button animate
+                                                                           style={this.styles.button}>Parts</Button></Link>
+                        </Col>
                       </Row>
                     </Frame>
                   </nav>
